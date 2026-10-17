@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation | Isla Serena Beach Resort</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrapper">
+
+    <!-- BANNER -->
+    <header class="banner">
+        <img src="images/banner.jpg" alt="Infinity pool overlooking the sea at Isla Serena Beach Resort">
+        <div class="banner-text">
+            <h1>🌴 Isla Serena Beach Resort</h1>
+            <p>Where the sea meets serenity &middot; San Vicente, Palawan</p>
+        </div>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav class="main-nav">
+        <a href="index.html">HOME</a> |
+        <a href="amenities.html">AMENITIES</a> |
+        <a href="roomrate.html">ROOM RATE</a> |
+        <a href="reservation.html" class="active">RESERVATION</a> |
+        <a href="about.html">ABOUT US</a>
+    </nav>
+
+    <div class="content">
+
+        <!-- MAIN CONTENT -->
+        <main class="main-panel">
+            <h2>Make a Reservation</h2>
+
+            <img src="images/reservation-path.jpg" alt="Garden pathway leading to the resort cottages" class="wide-photo">
+
+            <p>Ready for your island getaway? Fill out the form below and our reservations team will send a confirmation to your email within 24 hours. Fields marked with an asterisk (*) are required.</p>
+
+            <form class="form-box" action="reservation.html" method="get">
+
+                <fieldset>
+                    <legend>Guest Information</legend>
+                    <div class="field">
+                        <label for="fullname">Full Name *</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Juan Dela Cruz" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="field">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" placeholder="juan@email.com" required>
+                        </div>
+                        <div class="field">
+                            <label for="phone">Mobile Number *</label>
+                            <input type="tel" id="phone" name="phone" placeholder="0917 123 4567" required>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Stay Details</legend>
+                    <div class="form-row">
+                        <div class="field">
+                            <label for="checkin">Check-in Date *</label>
+                            <input type="date" id="checkin" name="checkin" required>
+                        </div>
+                        <div class="field">
+                            <label for="checkout">Check-out Date *</label>
+                            <input type="date" id="checkout" name="checkout" required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label for="roomtype">Room Type *</label>
+                        <select id="roomtype" name="roomtype" required>
+                            <option value="">-- Choose a room --</option>
+                            <option value="standard">Garden Standard Room (from ₱3,500)</option>
+                            <option value="deluxe">Deluxe Ocean View Room (from ₱5,500)</option>
+                            <option value="family">Family Suite (from ₱8,500)</option>
+                            <option value="villa">Beachfront Villa (from ₱15,000)</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <div class="field">
+                            <label for="rooms">Number of Rooms *</label>
+                            <input type="number" id="rooms" name="rooms" min="1" max="10" value="1" required>
+                        </div>
+                        <div class="field">
+                            <label for="adults">Adults *</label>
+                            <input type="number" id="adults" name="adults" min="1" max="20" value="2" required>
+                        </div>
+                        <div class="field">
+                            <label for="children">Children</label>
+                            <input type="number" id="children" name="children" min="0" max="10" value="0">
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Extras and Payment</legend>
+                    <div class="field">
+                        <label>Add-ons (optional)</label>
+                        <label class="option-label"><input type="checkbox" name="addon" value="transfer"> Van transfer from Puerto Princesa Airport (₱1,000 per person)</label>
+                        <label class="option-label"><input type="checkbox" name="addon" value="islandhopping"> Island-hopping tour (₱1,500 per person)</label>
+                        <label class="option-label"><input type="checkbox" name="addon" value="spa"> Spa package for two (₱2,000)</label>
+                        <label class="option-label"><input type="checkbox" name="addon" value="dinner"> Romantic beach dinner for two (₱3,500)</label>
+                    </div>
+                    <div class="field">
+                        <label>Payment Method *</label>
+                        <label class="option-label"><input type="radio" name="payment" value="card" required> Credit or Debit Card</label>
+                        <label class="option-label"><input type="radio" name="payment" value="gcash"> GCash</label>
+                        <label class="option-label"><input type="radio" name="payment" value="bank"> Bank Transfer</label>
+                        <label class="option-label"><input type="radio" name="payment" value="cash"> Pay at the Resort</label>
+                    </div>
+                    <div class="field">
+                        <label for="requests">Special Requests</label>
+                        <textarea id="requests" name="requests" rows="4" placeholder="Example: early check-in, extra pillows, birthday surprise"></textarea>
+                    </div>
+                </fieldset>
+
+                <div class="field">
+                    <label class="option-label"><input type="checkbox" name="agree" required> I have read and agree to the reservation policies below. *</label>
+                </div>
+
+                <div class="form-buttons">
+                    <input type="submit" value="Submit Reservation" class="btn">
+                    <input type="reset" value="Clear Form" class="btn btn-light">
+                </div>
+            </form>
+
+            <div class="policy-box">
+                <h3>Reservation Policies</h3>
+                <ul>
+                    <li>A 50% down payment is required within 48 hours to confirm your booking.</li>
+                    <li>Cancellations made at least 7 days before check-in get a full refund. Later cancellations will lose the down payment.</li>
+                    <li>You may move your booking to a new date once, for free, if you tell us at least 3 days before check-in.</li>
+                    <li>All guests must present a valid ID upon check-in.</li>
+                    <li>Smoking is allowed only in designated areas.</li>
+                </ul>
+                <p>For questions, call us at +63 917 555 0123 or email <a href="mailto:book@islaserena.ph">book@islaserena.ph</a>.</p>
+            </div>
+        </main>
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <div class="side-box">
+                <h3>Book Your Stay</h3>
+                <p>Reserve directly with us and enjoy a free welcome drink upon arrival.</p>
+                <p><a href="reservation.html" class="btn">Reserve Now</a></p>
+            </div>
+            <div class="side-box">
+                <h3>Resort Hours</h3>
+                <ul>
+                    <li><strong>Check-in:</strong> 2:00 PM</li>
+                    <li><strong>Check-out:</strong> 12:00 NN</li>
+                    <li><strong>Day Tour:</strong> 8:00 AM &ndash; 5:00 PM</li>
+                    <li><strong>Front Desk:</strong> Open 24 hours</li>
+                </ul>
+            </div>
+            <div class="side-box">
+                <h3>Contact Us</h3>
+                <p><strong>Phone:</strong><br>+63 917 555 0123</p>
+                <p><strong>Email:</strong><br><a href="mailto:book@islaserena.ph">book@islaserena.ph</a></p>
+                <p><strong>Address:</strong><br>Long Beach, San Vicente, Palawan</p>
+            </div>
+        </aside>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p class="footer-nav">
+            <a href="index.html">Home</a> |
+            <a href="amenities.html">Amenities</a> |
+            <a href="roomrate.html">Room Rate</a> |
+            <a href="reservation.html">Reservation</a> |
+            <a href="about.html">About Us</a>
+        </p>
+        <p>Isla Serena Beach Resort &middot; Long Beach, San Vicente, Palawan, Philippines</p>
+        <p>&copy; 2026 Isla Serena Beach Resort. All rights reserved.</p>
+        <p><em>This is a fictional resort website made for a class project.</em></p>
+    </footer>
+
+</div>
+</body>
+</html>

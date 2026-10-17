@@ -1,0 +1,34 @@
+ISLA SERENA BEACH RESORT - WEBSITE REFERENCES
+==============================================
+
+IMAGES
+All photos are from Unsplash and are free to use under the Unsplash License
+(https://unsplash.com/license).
+
+File                          Used on                Photographer          Source
+images/banner.jpg             All pages (banner)     David Hieb            https://unsplash.com/photos/n9Qv-ThinU0
+images/background.jpg         All pages (background) Royce Fonseca         https://unsplash.com/photos/Zch-aimk7JE
+images/home-beach.jpg         Home                   Cris Tagupa           https://unsplash.com/photos/qFWGqrpZhYU
+images/amenity-pool.jpg       Home, Amenities        Meg von Haartman      https://unsplash.com/photos/ZWmyi_lbptQ
+images/amenity-beach.jpg      Amenities              Secret Travel Guide   https://unsplash.com/photos/7yHtIEX71Gs
+images/amenity-restaurant.jpg Home, Amenities        Zoshua Colah          https://unsplash.com/photos/ZBn3kubjGoo
+images/amenity-spa.jpg        Home, Amenities        Yusuph Hassan         https://unsplash.com/photos/ScHeeXdAcbc
+images/amenity-watersports.jpg Amenities             Roman Lezhnin         https://unsplash.com/photos/Tx6hqbZuHPo
+images/amenity-garden.jpg     Amenities              Bernd Dittrich        https://unsplash.com/photos/HCLSkBsMxUA
+images/room-standard.jpg      Room Rate              Wes Hicks             https://unsplash.com/photos/T6WRDVQBn8M
+images/room-deluxe.jpg        Room Rate              Johannes W            https://unsplash.com/photos/IQKuHc2lils
+images/room-family.jpg        Room Rate              Frugal Flyer          https://unsplash.com/photos/mo3FN80PATM
+images/room-villa.jpg         Room Rate              Kadek Wahyudi         https://unsplash.com/photos/oVnKC7wiQjA
+images/reservation-path.jpg   Reservation            Georgy Trofimov       https://unsplash.com/photos/zv-_9KrUvdo
+images/about-resort.jpg       About Us               Gulya Guseynova       https://unsplash.com/photos/ddvyXrPvHjo
+images/about-location.jpg     About Us               Michael Maga-ao       https://unsplash.com/photos/JRShmDvtxeY
+
+FONTS
+Playfair Display and Poppins - Google Fonts (https://fonts.google.com)
+
+MAP
+Google Maps embed (https://maps.google.com)
+
+HTML AND CSS REFERENCES
+W3Schools - https://www.w3schools.com
+MDN Web Docs - https://developer.mozilla.org
